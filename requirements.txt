@@ -1,0 +1,15 @@
+feedparser
+requests
+beautifulsoup4
+pdfplumber
+fitz            # PyMuPDF (pip install PyMuPDF)
+tqdm
+openai
+pinecone-client
+numpy
+scipy
+scikit-learn
+python-dotenv
+sendgrid
+tiktoken
+psycopg2-binary   # only if using pgvector fallback
