@@ -1,1 +1,4 @@
-.env
+*
+!*.md
+!requirements.txt
+!*.py

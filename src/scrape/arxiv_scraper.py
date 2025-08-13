@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 CORPUS_DIR = Path(os.getenv("CORPUS_DIR", "data/raw_pdfs"))
 CORPUS_DIR.mkdir(parents=True, exist_ok=True)
-ARXIV_RSS = "http://export.arxiv.org/rss/cs.AI"  # change category or rotate
+ARXIV_RSS = "http://export.arxiv.org/rss/cs.CL"  # change category or rotate
 
 def hash_text(s):
     return hashlib.sha1(s.encode()).hexdigest()
